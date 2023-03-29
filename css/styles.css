@@ -1,0 +1,154 @@
+/* #title {
+    background-color: #ff4c68;
+    color:#fff;
+} */
+
+body {
+    font-family: 'Montserrat-Black';
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat-Black'  
+}
+
+p {
+    color:8f8f8f;
+}
+.big-heading {
+    
+    font-size:3rem;
+    line-height: 1.5;  
+}
+
+.small-heading {
+    
+    font-size: 3rem;
+    line-height: 1.5; 
+}
+
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+
+/* section */
+
+.colored-section {
+    background-color: #ff4c68;
+    color:#fff;
+}
+
+.white-section {
+    background-color: #fff;
+    color: black;
+}
+/* Navigation bar */
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    
+}
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+#features {
+    padding: 7% 15%;
+    /* background-color: #fff; */
+    position: absolute;
+    z-index: 1;
+    
+}
+.feature-box {
+    text-align: center;
+    padding: 7%;
+    
+}
+
+.rotated {
+    width: 60%;
+    transform: rotate(30deg);
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+.icon {
+    color: #ef8172;
+    margin: 1rem;
+    
+}
+.icon:hover{
+
+color: #ff4c68
+}
+
+/* Testimonials section */
+
+#testimonials {
+    text-align: center;
+    /* background-color: #ef8172; */
+    padding: 7% 15%;
+    /* color: #fff; */
+    margin-top: 50%;
+}
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    /* background-color: #ef8172; */
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 10%;
+    margin: 5%;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card {
+    margin: auto;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+#cta {
+    text-align: center;
+    /* background-color: #ff4c68; */
+    padding: 7% 15%;
+    /* color: #fff; */
+}
+#footer {
+    text-align: center;
+    /* background-color: #fff; */
+    padding: 5%;
+}
+
+
+@media (max-width: 900px) {
+      .rotated{
+        position: static;
+        transform: rotate(0);
+      }
+}
+
